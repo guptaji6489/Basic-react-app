@@ -6,6 +6,7 @@ import React, { useState } from 'react';
 const App = () => {
   // const state = useState();       
   const [count, setCount ] = useState(0);
+  //increment function
   const Inc = () =>
 {
   setCount( count+ 1);
